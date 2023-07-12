@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Playfair+Display:ital@1&family=Quicksand:wght@500&family=Raleway&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Rubik:ital,wght@0,800;1,500&display=swap');
+:root{
+    --white:#fff;
+    --gray:  rgb(229, 231, 235);
+    --blue:rgb(59, 130, 246)
+  }
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Raleway', sans-serif;
+    font-size: 62.5%;
+}
+body{
+    height:100%;
+    background-color: #F5F5F5;
+}
+.box__Flex{
+    display:flex;
+    align-items:center;
+    width: 100%;
+}
+.width__50{
+    width:50%;
+}
+
+
+
+/*SECTION HEADER*/
+.containerHeader{
+margin: auto;
+max-width: 1950px;
+background: #fff;
+}
+.boxSearch {
+ padding-left: 5%;
+}
+.boxLogo .boxSearch input{
+    width: 100%;
+    border-radius: 12px;
+    outline:none;
+    border: none;
+    color: #000;
+    padding:1rem;
+    background-color: #F5F5F5;
+ }
+.logo img{
+    max-width: 15rem;
+    width: 15rem;
+    min-width: 12rem;
+}
+
+
+/* FORM LOGIN*/ 
+.form{
+    height: 30rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+.form input, .form button{
+    padding: 1rem;
+    outline: none;
+    border: none;
+}
+.form .input{
+    border-radius: 7px;
+}
+.form  button{
+    background:#2A7AE4 ;
+    color: #fff;
+    border: none;
+}
+.boxLogo .boxSearch span{
+display: none;
+}
+
+/*BOXINFORMATION*/
+
+.boxInformation{
+height: auto;
+background: #EAF2FD;
+   }
+.box_logo_info img{
+    width: 15rem;
+}
+.box_nav ul{
+list-style: none;
+}
+.box_nav ul a{
+    text-decoration: none;
+    color:#000 ;
+}
+.box_nav ul a:hover{
+    border-bottom: 2px solid #000;
+}
+.form_soporte{
+padding: 1rem;
+}
+.form_soporte .boxFormImformation{
+width: 100%;
+}
+.form_soporte .boxFormImformation form{
+    display: flex;
+    flex-direction: column;
+}
+.form_soporte .boxFormImformation form input {
+    margin-top: 2rem;
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+}
+.form_soporte .boxFormImformation button{
+    max-width: 15rem;
+    width: 70%;
+    height:4.5rem;
+    background-color: var(--blue);
+    color: var(--white);
+    outline: none;
+    margin-top: 2rem;
+    border: none;
+}
+
+/*FOOTER*/
+footer{
+    height: 8rem;
+    align-items: center;
+    max-width: 1950px;
+    font-size: 1.7rem;
+    display: flex;
+    margin: auto;
+}
+footer .boxFooter{
+    text-align: center;
+    margin: auto;
+}
+footer nav{
+    margin-left: 1rem;
+    font-size: 3rem;
+}
+footer nav i{
+    color: #000;
+}
+.rigths{
+    display: flex;
+    align-items: center;
+}
+
+main input{
+    box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+}
+
+.boxLogin button{
+    height: 5rem;
+    width: 15rem;
+    margin: auto 0;
+   background: var(--white);
+    border:1.6px solid var(--blue);
+}
+.boxLogin button a{
+    color: var(--blue);
+    text-decoration: none;
+}
+
+/*SECTION BUTTON HOME*/
+.boxLoginhome{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+    margin:0;
+    }
+
+/*Banner HOME*/
+.banner{
+    background-image: url(/pictures/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column-reverse;
+    color: var(--white);
+}
+.box_text_banner h1{
+margin-bottom: 1rem;
+     }
+.box_text_banner button{
+    color: var(--white);
+    background: var(--blue);
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+
+/* SECTION ADMINISTRADOR*/
+.main_admin{
+height: 40rem;
+width: 100%;
+}
+.box_form_admin{
+width: 100%;
+}
+.box_form_admin form{
+    display: flex;
+    flex-direction: column;
+}
+.box_form_admin form input{
+    box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.75);
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+}
+.box_form_admin form button{
+    border: none;
+    margin-top: 1rem;
+    background: var(--blue);
+    color: var(--white);
+}
+

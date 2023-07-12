@@ -1,0 +1,89 @@
+
+/* SECTION HEADER*/
+.boxLogin{
+display: none;
+}
+
+.boxLogo{
+    padding: 0 1rem;
+}
+.logo img{
+    width: 10rem;
+}
+.form .input, button{
+    height: 4rem;
+}
+.boxLogo .boxSearch input{
+    display: none;
+}
+.boxLogo .boxSearch {
+    width: 50%;
+    text-align: end;
+}
+.boxLogo .boxSearch span{
+    display: block;
+    font-size: 1.5rem;
+}
+
+/* FORM LOGIN*/
+.form{
+    margin: 4rem auto 0 auto;
+    min-width: 80%;
+    }
+
+/*BOXINFORMATION*/
+.boxInformation{
+  flex-direction: column;
+  align-items: stretch;
+}
+.box_logo_info{
+    text-align: center;
+}
+.box_nav{
+    width: 80%;
+    line-height: 2;
+    margin: auto;
+    padding: 10%;
+}
+.form_soporte .boxFormImformation form input {
+    height: 3.5rem;
+}
+
+/*FOOTER*/
+footer{
+    font-size: 1rem !important;
+}
+
+
+/*BANNER HOME*/
+.banner{
+    height: 20rem;
+}
+.box_text_banner{
+padding: 0 1rem;
+}
+.box_text_banner h1{
+font-size: 1.8rem;
+}
+.box_text_banner h4{
+font-size:1rem;
+}
+.box_text_banner button{
+margin: 2rem 0;
+padding:0 1.5rem;
+}
+
+
+
+/* SECTION ADMINISTRADOR*/
+ .main_admin{
+    height: auto;
+    padding: 1.5rem 1.5rem;
+    width: 100%;
+    font-size: .8rem;
+}
+.box_form_admin form input ,button{
+height: 3.2rem;
+}
+
+    
